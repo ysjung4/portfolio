@@ -113,6 +113,7 @@ h3 {
 
 article {
   font-family: "Hanna", sans-serif;
+
   display: flex;
 
   max-width: 50%;

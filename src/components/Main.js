@@ -26,7 +26,7 @@ class Main extends Component {
                 </nav>
                 <div class="img">
         <div class="content">
-            <h1>Yeonseo Jung's Portpolio</h1>
+            <h1>Yeonseo Jung's Portfolio</h1>
         </div>
        </div>
                  <Route path="/Main" component={Main}/>
