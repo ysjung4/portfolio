@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, Route } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
-import History from './History';
+
 import './Main.css'
 import Project from './Project';
 import Skill from './Skill';
