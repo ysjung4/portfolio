@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Main from './Components/Main';
+import Main from './components/Main';
 
 class App extends Component {
   render() {
