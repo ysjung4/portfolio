@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.nav {
+  justify-content: flex-end;
+  display: flex;
+  left: 0px;
+  height: 70px;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+  font-family: "Nanum Pen Script", cursive;
+
+  background-color: rgb(235, 191, 150);
+}
+li {
+  display: inline;
+  padding: 40px;
+}
+/* 
+photo */
+
+.slick-slide {
+  position: relative;
+  width: 100%;
+
+  align-items: center;
+}
+
+/* .image1 {
+ 
+  height: 1000px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  background-size: cover;
+} */
+
+.content img {
+  width: 80%;
+  height: 1000px;
+  position: relative;
+  justify-content: center;
+  display: block;
+  margin: 0px auto;
+}
+.content_text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* .gallery */
+
+.gallery {
+  width: 100%;
+  height: 1000px;
+  padding: 0 90px 0 90px;
+  background-color: rgb(235, 191, 150);
+}
+.gallery h2 {
+  font-size: 59px;
+  font-family: "Nanum Pen Script", cursive;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+
+.gallery img {
+  border: 2.5px solid white;
+  box-sizing: border-box;
+  border-width: 10px 10px 80px 10px;
+  width: 400px;
+  height: 700px;
+  margin: 0 30px 0 30px;
+  position: relative;
+}
+
+/* .polaroid {
+  background-image: url("gamja.jpg"); Change this to a background image or remove
+  background-size: 500px 500px;
+  border: solid #fff;
+  border-width: 5px 40px 50px 6px;
+  box-shadow: 1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
+/* -webkit-box-shadow: 1px 1px 5px #333;
+  -moz-box-shadow: 1px 1px 5px #333;
+  height: 430px; /*Set to height of your image or desired div*/
+/* width: 360px; /*Set to width of your image or desired div*/
+/* margin: 40px;
+} */
+
+/* about */
+.fa-heart {
+  color: crimson;
+}
+.fa-mars {
+  color: skyblue;
+}
+.fa-thumbs-up {
+  color: pink;
+}
+.fa-thumbs-down {
+  color: skyblue;
+}
+
+.gam_about_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.gam_about {
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+  font-size: 30px;
+  font-family: "Nanum Pen Script", cursive;
+}
+.gam_about_container h2 {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 50px;
+}
+
+.gam_img img {
+  width: 500px;
+  height: 500px;
+  padding-right: 60px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* .img .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
+
+/* board */
+.gam_board {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 40px;
+  width: 100%;
+}
+.gam_text h2 {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 50px;
+}
+.row {
+  width: 1000px;
+}
+.gam_text h1 {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 60px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+/* contact */
+
+.gam_text h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.gam_contact {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 191, 150);
+}
+.gam_contact p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+
+  padding: 0;
+}
+.gam_contact h2 {
+  padding: 0;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+.gam_contact i {
+  color: black;
+  font-size: 60px;
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+}
