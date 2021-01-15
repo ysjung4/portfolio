@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Main from './components/Main';
+import Gamja_Main from './gamja/Gamja_Main';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Main/>
+        <Gamja_Main/>
       </div>
     );
   }
