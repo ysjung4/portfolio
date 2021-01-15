@@ -16,7 +16,7 @@ class Main extends Component {
            
                 <nav className="navbar navbar-light bg-light">
                     <ul >
-                        <li class="nav-item active"><Link to="/History"> Main</Link></li>
+                        <li class="nav-item active"><Link to="/Main"> Main</Link></li>
                         <li class="nav-item active"><Link to="/About">About</Link></li>
                         <li class="nav-item active"><Link to="/Skill">Skill</Link></li>
                         <li class="nav-item active"><Link to="/Projectt">Project</Link></li>
