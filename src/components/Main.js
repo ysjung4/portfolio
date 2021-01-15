@@ -16,7 +16,7 @@ class Main extends Component {
            
                 <nav className="navbar navbar-light bg-light">
                     <ul >
-                        <li class="nav-item active"><Link to="/History"> History</Link></li>
+                        <li class="nav-item active"><Link to="/History"> Main</Link></li>
                         <li class="nav-item active"><Link to="/About">About</Link></li>
                         <li class="nav-item active"><Link to="/Skill">Skill</Link></li>
                         <li class="nav-item active"><Link to="/Projectt">Project</Link></li>
@@ -29,7 +29,7 @@ class Main extends Component {
             <h1>Yeonseo Jung's Portpolio</h1>
         </div>
        </div>
-                <Route path="/History" component={History}/>
+                 <Route path="/Main" component={Main}/>
                 <Route path="/About" component={About}/>
                 <Route path="/Skill" component={Skill}/>
                 <Route path="/Project" component={Project}/>
