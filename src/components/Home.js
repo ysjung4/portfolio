@@ -21,7 +21,7 @@ function Home() {
     ];
     return  <div className="portfolio-container">
         <div className="header">
-            <h1>Yeonseo Jung | Web developer</h1>
+            <h1>Yeonseo Jung - Frontend Web Developer</h1>
         </div>
         <div className="content-container">
 

@@ -7,8 +7,8 @@ class Skill extends Component {
                 <header className="major">
                     <h2>Skills</h2>
                 </header>
-                <h2>Interminate</h2>
-                <div className="posts">
+                <h3>Interminate</h3>
+                <div className="postss">
                     <article>
                         <i className=" fab fa-js"></i>
                         <h4>React</h4>
@@ -34,8 +34,8 @@ class Skill extends Component {
                         <h3>GIT</h3>
                     </article>
                 </div>
-                <h2>Basic</h2>
-                <div className="posts">
+                <h3>Basic</h3>
+                <div className="postss">
                     <article>
                         <i className=" fab fa-java"></i>
                         <h3>Java</h3>
