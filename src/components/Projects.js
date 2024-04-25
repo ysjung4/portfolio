@@ -59,7 +59,7 @@ function Experience() {
                     <h3>Nhs Hospital </h3>
                     <p>Developing a project to find NHS hospitals by location by integrating the NHS Open API using vue</p>
                     <ul className="actions">
-                        <li><a href="#" className="button">More</a></li>
+                        <li><a href="#" className="button">Link</a></li>
                     </ul>
                 </article>
                 <article>

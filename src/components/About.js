@@ -26,7 +26,9 @@ class About extends Component {
                     {/*        Nashville, TN 00000-0000*/}
                     {/*    </li>*/}
                     {/*</ul>*/}
-                    <h2>Educatoin</h2>
+                    <header className="major">
+                        <h2>Education</h2>
+                    </header>
                     <p>graduated from Seneca college in Toronto, CA</p>
                 </div>
 

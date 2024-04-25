@@ -11,6 +11,8 @@ import Project from "./components/Project";
 import Main from "./components/Main";
 import data from "./utils/db";
 
+import './components/Main.css'
+
 function App() {
     const [isLogin, setIsLogin] = useState(true);
     const [stocks, setStocks] = useState([]);

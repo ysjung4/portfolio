@@ -7,7 +7,7 @@ import Add from "./stock/Add";
 
  import Nav from "./stock/Nav";
 
- function Main( { stocks, category, handleSearch, handleSelect, handleStocked, handleRemove }) {
+ function Main( { stocks, category, handleSearch, handleSelect, handleStocked, handleRemove, additem }) {
 
      return (
          <div>
@@ -25,7 +25,7 @@ import Add from "./stock/Add";
                  handleSelect={handleSelect}
                />
 
-               {/*<Add additem={this.additem} />*/}
+               <Add additem={additem} />
                <Content stocks={stocks} handleRemove={handleRemove} />
              </div>
              {/*<div className="container-fluid footer mb-3">*/}

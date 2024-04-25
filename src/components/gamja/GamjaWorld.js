@@ -62,13 +62,18 @@ function GamjaWorld() {
                                     <h2>Welcome to Gamja's World</h2>
                                     <p>This website was created as a casual way to introduce Gamja.There aren't any
                                         special features, I just made it to introduce Gamja. Take a casual look.</p>
+                                    {/*<ul className="col-1-medium -image-list">*/}
+                                    {/*    <li>*/}
+                                    {/*        <a href="#"><img src="/image/gamja_04.jpg" alt="" className="left"/></a>*/}
+                                    {/*    </li>*/}
+                                    {/*</ul>*/}
 
-                                    <footer className="controls">
-                                        {/*<div className="col-6 col-12-small">*/}
-                                        {/*    <a href="#" className="image"><img src="/image/gamja.jpg" alt=""/></a>*/}
-                                        {/*</div>*/}
-                                        {/*<a href="http://html5up.net" className="button">There aren't any special features, I just made it to introduce Gamja. Take a casual look.</a>*/}
-                                    </footer>
+                                            <footer className="controls">
+                                                {/*<div className="col-6 col-12-small">*/}
+                                                {/*    <a href="#" className="image"><img src="/image/gamja.jpg" alt=""/></a>*/}
+                                                {/*</div>*/}
+                                                {/*<a href="http://html5up.net" className="button">There aren't any special features, I just made it to introduce Gamja. Take a casual look.</a>*/}
+                                            </footer>
                                 </section>
 
                             </div>
@@ -80,14 +85,14 @@ function GamjaWorld() {
                                         <li>
                                             <a href="#"><img src="/image/gamja_04.jpg" alt="" className="left"/></a>
                                             <h4>About Gamja</h4>
-                                            <p>Gamja is our family dog who joined our home in 2019.Gamja" is the Korean
+                                            <p>Gamja is our family dog who joined our home in 2019. Gamja is the Korean
                                                 word for potato. We named our dog Gamja because his fur color resembles
                                                 a potato, and it's believed that dogs named after food will live
                                                 longer</p>
                                         </li>
                                         <li>
                                             <a href="#"><img src="/image/gamja_22.jpg" alt="" className="left"/></a>
-                                            <h4>How did we bring Gamja home?"</h4>
+                                            <h4>How did we adopt Gamja?</h4>
                                             <p>My sister brought Gamja home when her company's dog gave birth to puppies.</p>
                                         </li>
                                     </ul>
@@ -103,19 +108,19 @@ function GamjaWorld() {
                                             <div className="col-6 col-12-small">
                                                 <ul className="link-list">
                                                     {/*<li><a href="#"></a></li>*/}
-                                                    <li><a href="#">Despite having skin allergies, has a luxurious fur</a></li>
-                                                    <li><a href="#">loves sweet potatoes.</a></li>
-                                                    <li><a href="#">Likes grass and soil </a></li>
-                                                    <li><a href="#">loves meat,</a></li>
+                                                    <li>Despite having skin allergies, has a luxurious fur</li>
+                                                    <li>loves sweet potatoes</li>
+                                                    <li>Likes grass and soil</li>
+                                                    <li>loves meat</li>
                                                 </ul>
                                             </div>
                                             <div className="col-6 col-12-small">
                                                 <ul className="link-list">
                                                     {/*<li><a href="#">Likes grass and soil</a></li>*/}
-                                                    <li><a href="#">fearful but becomes affectionate once familiar.</a></li>
-                                                    <li><a href="#">Fearful of the vet</a></li>
-                                                    <li><a href="#">highly cautious</a></li>
-                                                    <li><a href="#"></a>Weak legs</li>
+                                                    <li>fearful but becomes affectionate once familiar</li>
+                                                    <li>Fearful of the vet</li>
+                                                    <li>highly cautious</li>
+                                                    <li>Weak legs</li>
                                                 </ul>
                                             </div>
                                         </div>

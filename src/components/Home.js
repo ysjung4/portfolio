@@ -2,7 +2,6 @@ import React from 'react';
 import Experience from "./Experience";
 import About from "./About";
 import Skill from "./Skill";
-import './Main.css'
 import Portfolio from "./Portfolio";
 import Projects from "./Projects";
 
